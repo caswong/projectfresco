@@ -21,16 +21,26 @@
 title: Project Fresco
 email: caswong@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  eecs 499 research
-baseurl: /projectfresco # the subpath of your site, e.g. /blog
-url: https://caswong.github.io # the base hostname & protocol for your site, e.g. http://example.com
+  EECS 499 research
+baseurl: "" # the subpath of your site, e.g. /blog
+url: http://projectfresco.com # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
 github_username:  caswong
+
+plainwhite:
+  name: Project Fresco
+  tagline: "EECS 499"
+  date_format: "%b %-d, %Y"
+#  navigation:
+#    - title: Play the game!
+#    - url: ""
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+remote_theme: thelehhman/plainwhite-jekyll
 
 # Exclude from processing.
 # The following items will not be processed, by default.
