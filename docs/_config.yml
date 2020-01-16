@@ -28,8 +28,8 @@ twitter_username: ""
 github_username:  caswong
 
 plainwhite:
-  name: Project Fresco
-  tagline: "EECS 499"
+  name: ""
+  tagline: eecs 499
   date_format: "%b %-d, %Y"
 #  navigation:
 #    - title: Play the game!

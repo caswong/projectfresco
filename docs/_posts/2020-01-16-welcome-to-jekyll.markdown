@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Sample Post (Delete Later)"
 date:   2020-01-16 05:20:51 -0500
 categories: jekyll update
 ---
