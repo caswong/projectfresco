@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Initial Prototyping"
+title: "Initial Prototyping: Color Spaces"
 date: 2020-01-28 11:00:00 -0500
 categories: dev week3
 ---
