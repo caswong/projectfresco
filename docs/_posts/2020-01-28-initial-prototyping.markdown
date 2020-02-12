@@ -5,6 +5,8 @@ date: 2020-01-28 11:00:00 -0500
 categories: dev week3
 ---
 
+## Development
+
 Since art is a broad subject, I started by experimenting with a fundamental concept -- color mixing. This is actually non-trivial because computer color schemes are additive, and combining all colors gives you white. Unity uses the RGB color space, which is additive. Color mixing in the physical world is subtractive, and combining all colors gives you black. Painting uses the RYB color space, the 3 primary colors. My goal was to match real world color mixing as closely as possible.
 
 I first tried to use Unity's Color.Lerp, which just averaged the red, green, and blue pixels of 2 colors. I found that RGB color mixing works well for orange and purple, but mixing blue and yellow makes gray instead of green. This implementation also reached each primarily color too quickly.
@@ -66,5 +68,7 @@ void OnMouseDown()
 Color mixing could be one mechanic in a game. I made a quick 3D environment and moved the objects into the UI.
 
 ![color mixing in the ui of a 3d world](/assets/proto1.png)
+
+## Next Steps
 
 It might be interesting to explore how we can affect more complex objects in the world. Perhaps the game should be more story-driven and requires more world building. Once I get to do some interviews, I'll have more of an idea of what features would be useful for art educators.

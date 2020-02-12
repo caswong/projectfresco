@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Concept & More Experimentation"
+date: 2020-02-12 8:00:00 -0500
+categories: dev interview week5
+---
+
+## Interviews
+This week, I interviewed two high school art teachers. The first teacher I interviewed teaches graphic design, digital photography, and art history. She is very comfortable using media in the classroom, but said that it can be difficult for students to use their resources wisely, since they may not have the necessary programs and technology at home. She showed me the course webpage for her graphic design class, which includes the lesson plans. One topic she has to teach is the elements and principles of design -- things like line, shape, form, value, color, texture, and space. This is the foundation of design, but is quite boring to teach in her opinion. One angle I could take in the development of this project is to explore each of these elements within a video game.
+
+The second teacher I interviewed teaches 2D art, which includes drawing and painting. She is less familiar with using technology in the classroom because it is difficult to integrate due to the nature of her art class. She says that if she could provide all her students with tablets, she would. In her opinion, it is most valuable for students to learn observational drawing as a technical skill and reflection and expression as soft skills. One state standard she has to teach is culture, and she thinks this is the topic that is most challenging for her students to grasp. She believes that many students have a skewed definition of culture or believe that they don't have a culture. This led me to think about ways I could address society and culture in my game.
+
+## Development
+This week, I continued to develop the context and narrative of the game. In this example, I created a divided town using one of the shaders from last week.
+
+![concept 1](/assets/concept1.gif)
+
+To do this, I set up two cameras and put the objects on separate layer masks. One camera had the post-processing effects and rendered over everything while the other camera had no effects and just targeted one specific layer. This way, only half of the scene would be affected by the post-processing effects of the shader. I couldn't figure out how to split the skybox in half, so I just left it under the default layer. I made objects clickable, and dragging them across the border changes the look of the object.
+
+This context could be a representation of cultural divide. A cultural divide is defined as "a boundary in society that separates communities whose social economic structures, opportunities for success, conventions, or styles are so different that they have substantially different psychologies." A cultural divide is the virtual barrier caused by cultural differences, that hinder interactions, and harmonious exchange between people of different cultures. Using this concept, the game could be about using art to unite the communities from the two sides. Going in this direction would address the topics of culture, communication, and collaboration that some educators expressed interest in.
+
+Separate from this, I also experimented with one of the elements of design -- shape. I wanted to use the 3D space to display a 2D image. By rotating and translating the camera in a certain way, you can see the image in the correct perspective.
+
+![perspective experiment](/assets/perspective.gif)
+
+I sliced up an image here and placed the pieces on 3 separate planes. Some of the pieces had to be skewed in order to create the illusion. The main camera has a script that makes it behave similarly to the editor scene, since I needed to match the angle I created the image at.
+
+## Next Steps
+The two professors I reached out to for interviews haven't gotten back to me, so I will reach out to some new contacts from my list and hopefully conduct some more interviews. In terms of development, I would like to continue building out this world and incorporating the elements of design in some way. I'd like to combine some of the experiments I've done so far.

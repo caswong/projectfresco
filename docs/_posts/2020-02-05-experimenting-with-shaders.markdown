@@ -5,6 +5,8 @@ date: 2020-02-04 11:00:00 -0500
 categories: dev interview week4
 ---
 
+## Development
+
 This week, I experimented with different artistic shaders.
 
 The first shader I tried using was a [watercolor shader](https://www.bruteforce-games.com/post/watercolor-shader-devblog-13).
@@ -63,5 +65,7 @@ This one worked very similarly to the pencil effect shader. I applied the shader
 I had the opportunity to interview an MFA student at the Stamps School of Art & Design. He has taught a number of classes about media art, including creative programming and digital fabrication. He is interested in using technology for aesthetics and considers the art he does as "not very mainstream," so it can be challenging to teach students this field in classrooms. One of the key takeaways from my conversation with him is that anyone can eventually learn technical skills -- it's more important for art students to become skilled at communication, to be able to share a message and provide a "method to their madness."
 
 From this interview, it's clear that I should eventually incorporate story-based elements in the game to help students practice communication.
+
+## Next Steps
 
 Next week, I have set up interviews with two high school art teachers. I will continue experimenting with different mechanics/tools I could use or possibly mimicking an existing art-based game until I have a better direction.
