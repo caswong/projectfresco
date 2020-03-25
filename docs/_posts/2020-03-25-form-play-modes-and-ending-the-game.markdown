@@ -18,7 +18,7 @@ I finally finished room #3! In this room, you fold the squares together by click
 
 There is now a basic title screen that shows you two modes of play -- regular play mode or demo mode. Demo mode allows you to select an individual concept to display, which might be useful to some educators who just want to demonstrate one thing. In demo mode, there won't be any progression or collectables, and you won't be able to enter the world view. Eventually, there will just be a back button that lets you select another concept.
 
-In play mode, there is now a complete feedback loop. You end the game by stepping on the green tile (your soon-to-be building site). If you have all 9 blocks, you'll be redirected to the title screen. Eventually, this will be some kind of cutscene that shows your finished bridge.
+In play mode, there is now a complete feedback loop. You end the game by stepping on the green tile (your soon-to-be building site). If you have all 9 blocks, you'll be redirected to the title screen. Otherwise, you'll be prompted to collect more. Eventually, this will be some kind of cutscene that shows your finished bridge.
 
 I also started experimenting with particle systems this week. I added some sparks when the cubes are instantiated to make them stand out more. I made my own emission map in Photoshop for these.
 
