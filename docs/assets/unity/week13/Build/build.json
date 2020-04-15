@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Project Fresco",
+"productVersion": "0.1",
+"dataUrl": "week13.data.unityweb",
+"wasmCodeUrl": "week13.wasm.code.unityweb",
+"wasmFrameworkUrl": "week13.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.4f1"
+}
