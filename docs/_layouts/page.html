@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<div class="post-container">
+    <div class="post">
+    	{% if page.unity_dir %}
+	      {% include page__unity.html %}
+	    {% endif %}
+        {{ content }}
+    </div>
+</div>

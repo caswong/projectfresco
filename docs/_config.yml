@@ -31,9 +31,9 @@ plainwhite:
   name: ""
   tagline: eecs 499
   date_format: "%b %-d, %Y"
-#  navigation:
-#    - title: Play the game!
-#    - url: ""
+  navigation:
+    - title: Play the game!
+    - url: http://projectfresco.com/play
 
 # Build settings
 theme: minima
