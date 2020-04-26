@@ -33,7 +33,7 @@ plainwhite:
   date_format: "%b %-d, %Y"
   navigation:
     - title: Play the game!
-    - url: http://projectfresco.com/play
+    - url: "/play/"
 
 # Build settings
 theme: minima
