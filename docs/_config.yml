@@ -29,11 +29,15 @@ github_username:  caswong
 
 plainwhite:
   name: ""
-  tagline: eecs 499
+  tagline: |
+   an arts education
+   video game
   date_format: "%b %-d, %Y"
   navigation:
-    - title: Play the game!
-    - url: "/play/"
+    - title: about
+      url: "/about/"
+    - title: play the game
+      url: "/play/"
 
 # Build settings
 theme: minima
